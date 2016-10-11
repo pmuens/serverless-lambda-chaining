@@ -22,7 +22,7 @@ module.exports.firstLambda = (event, context, callback) => {
 
 module.exports.secondLambda = (event, context, callback) => {
   // print out the event information on the console (so that we can see it in the CloudWatch logs)
-  console.log(`I'm triggered by firstLambda through the SNS topic "dispatcher":\n${JSON.stringify(event, null, 2)}`);
+  console.log(`I'm triggered by "firstLambda" through the SNS topic "dispatcher":\n${JSON.stringify(event, null, 2)}`);
 
   callback(null, { event });
 };
