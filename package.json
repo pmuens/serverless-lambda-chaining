@@ -1,0 +1,13 @@
+{
+  "name": "serverless-lambda-chaining",
+  "version": "0.1.0",
+  "description": "Serverless service which shows how one can chain Lambdas through SNS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.6.7"
+  }
+}
