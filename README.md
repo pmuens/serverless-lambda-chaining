@@ -1,6 +1,7 @@
 # Serverless Lambda chaining
 
 Serverless service which shows how one can chain Lambdas through SNS.
+The [configuration](https://serverless.com/framework/docs/providers/aws/events/sns/#sns) which triggers the chain mechanims is defined on [serverless.yml](/serverless.yml). 
 
 ## Installation
 
@@ -21,3 +22,6 @@ Make sure that you use Serverless v1.
 
 - Lambda
 - SNS
+
+## References
+https://serverless.com/framework/docs/providers/aws/events/sns/#sns
